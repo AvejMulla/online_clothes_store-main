@@ -1,54 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Global Reset */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 /* Smooth Scroll */
-html{
+html {
   scroll-behavior: smooth;
 }
 
 /* Body Styling */
-body{
+body {
   min-height: 100vh;
   overflow-x: hidden;
 
-  background: linear-gradient(
-    135deg,
-    #ffd6e1 0%,
-    #ee9ca7 30%,
-    #d5c6ff 65%,
-    #fbc2eb 100%
-  );
-
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ffffff;
 }
 
 /* Links */
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
 /* Images */
-img{
+img {
   max-width: 100%;
   display: block;
 }
 
 /* Buttons */
-button{
+button {
   cursor: pointer;
   outline: none;
 }
